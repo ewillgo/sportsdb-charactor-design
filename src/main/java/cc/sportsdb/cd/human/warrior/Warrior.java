@@ -1,22 +1,12 @@
 package cc.sportsdb.cd.human.warrior;
 
-import cc.sportsdb.cd.human.AbstractHuman;
+import cc.sportsdb.cd.human.Human;
+import cc.sportsdb.cd.ui.bar.BloodBar;
+import cc.sportsdb.cd.ui.bar.EnergyBar;
 
-public class Warrior extends AbstractHuman {
+public abstract class Warrior extends Human {
 
-    public void up() {
-
-    }
-
-    public void down() {
-
-    }
-
-    public void left() {
-
-    }
-
-    public void right() {
-
-    }
+    protected BloodBar bloodBar;
+    protected EnergyBar energyBar;
+    
 }

@@ -1,5 +1,8 @@
-package cc.sportsdb.cd.human;
+package cc.sportsdb.cd.support;
 
+/**
+ * The object who can move
+ */
 public interface Moveable {
     void up();
     void down();
